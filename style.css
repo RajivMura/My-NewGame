@@ -1,0 +1,156 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prata&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&family=Outfit:wght@100..900&family=Prata&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+
+nav ul{
+    display: flex;
+    gap: 100px;
+    background-color:rgb(104, 94, 94);
+    height: 50px;
+
+}
+
+nav ul li{
+    margin: 8px;
+   
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: larger;
+    list-style: none;
+    font-family: sans-serif;
+ 
+
+}
+nav ul li:hover{
+    background-color: blueviolet;
+}
+
+
+.gameContainer{
+    display: flex;
+    background-color:rgb(114, 109, 109);
+    gap: 200px;
+    margin-top: 10px;
+    
+}
+
+.container{
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3,10vw);
+    font-family: "Prata", serif;
+
+}
+.box{
+    border: 2px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    text-align: center;
+    
+    
+}
+
+.box:hover{
+    background-color: rgb(99, 79, 117);
+
+}
+
+.gameInfo{
+    padding: 0  34px;
+    font-family: "Baloo Da 2", sans-serif;
+
+}
+
+.gameInfo h2{
+    font-size: xx-large;
+}
+.gameInfo p{
+    font-size: larger;
+}
+
+.btn{
+    margin-top: 20px;
+    display: flex;
+    gap: 40px;
+}
+
+.btn #btn1{
+    background-color: rgb(243, 77, 218);
+    font-size: large;
+    font-family: "Baloo Da 2", sans-serif;;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    
+}
+
+.btn #btn2{
+    background-color: rgb(243, 77, 218);
+    font-size: large;
+    font-family: "Baloo Da 2", sans-serif;;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    
+
+}
+
+#btn1:hover{
+    background-color: rgb(96, 96, 225);
+
+}
+
+#btn2:hover{
+    background-color: rgb(106, 16, 192);
+    
+}
+
+
+
+/* Hide numbers by default */
+.hidden {
+    display: none;
+}
+
+.show{
+    display: flex;
+}
+
+
+.sbtnhide{
+    display: none;
+}
+
+
+.img{  
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+.img #Trophy{
+    width: 200px;
+    height: 200px;
+    margin-top: 100px;
+    border-radius: 100%;
+}
+
+
+.img span{
+    color: rgb(225, 18, 73);
+}
